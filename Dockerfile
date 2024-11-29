@@ -1,18 +1,18 @@
-# Etapa de construcción
-FROM node:current AS build-stage
+
+FROM node:18-alpine
 
 WORKDIR /app
-COPY package*.json ./
-COPY . .
+
+COPY package.json .
 
 RUN npm install
+
+RUN npm i -g serve
+
+COPY . .
+
 RUN npm run build
 
-# Etapa de producción
-FROM nginx:stable-alpine AS production-stage
+EXPOSE 3000
 
-COPY --from=build-stage /app/build /usr/share/nginx/html
-
-EXPOSE 80
-
-CMD ["nginx", "-g", "daemon off;"]
+CMD [ "serve", "-s", "dist" ]
