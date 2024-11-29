@@ -24,6 +24,9 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import amazon_ads from "./company/amazon_ads.png"
+import zibernet from "./company/zibernet.png"
+import templaris from "./company/templaris.jpeg"
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -55,6 +58,9 @@ export {
   meta,
   shopify,
   starbucks,
+  amazon_ads,
+  templaris,
+  zibernet,
   tesla,
   carrent,
   jobit,

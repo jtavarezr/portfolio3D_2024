@@ -17,12 +17,15 @@ import {
   docker,
   meta,
   starbucks,
+  amazon_ads,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  templaris,
+  zibernet,
 } from "../assets";
 
 export const navLinks = [
@@ -30,6 +33,12 @@ export const navLinks = [
     id: "about",
     title: "About",
   },
+
+  {
+    id: "tech",
+    title: "Tech",
+  },
+
   {
     id: "work",
     title: "Work",
@@ -38,6 +47,15 @@ export const navLinks = [
     id: "education",
     title: "Education",
   },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "feedbacks",
+    title: "Feedbacks",
+  },
+
   {
     id: "contact",
     title: "Contact",
@@ -120,42 +138,47 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Developer Engineer",
+    company_name: "Amazon ads",
+    icon: amazon_ads,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2019 - January 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Accelerated application development for over 100 internal teams, reducing maintenance costs by 10% and boosting productivity by 15%",
+      "Enhanced web applications deployed on AWS, achieving a 20% performance improvement and a 15% increase in usability and functionality",
+      "Optimized database architectures, including NoSQL solutions, reducing retrieval times by 30% and improving system reliability",
+      "Architected scalable cloud infrastructure with AWS, achieving 99.99% uptime and a 40% improvement in disaster recovery",
+      "Conducted code reviews, mentoring junior engineers, and reducing bugs by 35% while improving maintainability by 50%",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Technology Project Advisor",
+    company_name: "Zibernet",
+    icon: zibernet,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2019 - Feb 2023",
     points: [
+      "Designed and implemented sophisticated performance reporting dashboards using SQL and data visualization tools, leading to a 30% improvement in decision-making speed",
+      "Streamlined customer support processes through detailed user-centric documentation, resulting in a 25% reduction in support ticket volume.",
+      "Architected and deployed scalable solutions incorporating advanced technologies and best practices, achieving a 35% improvement in application responsiveness.",
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "IT Manager",
+    company_name: "Templaris",
+    icon: templaris,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Feb 2018 - May 2019",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Oversaw the technological infrastructure and IT support for a financial services call center, ensuring smooth and efficient operation of all systems",
+      "Implemented security enhancements to the network and systems, achieving a 40% reduction in security incidents while ensuring compliance with financial regulations.",
+      "Developed and maintained performance tracking systems for the team, utilizing data analysis tools to generate reports that facilitated strategic decision-making.",
     ],
   },
   {

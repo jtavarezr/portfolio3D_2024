@@ -45,16 +45,21 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a skilled Full-Stack Software Development Engineer with over 7 years
+        of experience in designing and optimizing cloud-based applications and
+        systems within fast-paced environments. Proficient in Java, Spring Boot,
+        React, and MySQL, with a solid understanding of SDLC and NoSQL
+        databases. Demonstrated ability to execute secure, high-quality code
+        while improving infrastructure, streamlining development workflows, and
+        enhancing operational efficiency. Proven track record of delivering
+        scalable, high-performance solutions that meet stakeholder needs and
+        exceed expectations. committed to fostering team development through
+        learning and mentorship.{" "}
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
