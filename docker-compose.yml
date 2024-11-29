@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   sampleproject:
-    image: sampleproject
+    image: portafolio-2024
     build:
       context: .
       dockerfile: ./Dockerfile
