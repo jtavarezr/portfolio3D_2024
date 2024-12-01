@@ -21,11 +21,14 @@ import {
   tesla,
   shopify,
   carrent,
+  jobs,
   jobit,
   tripguide,
   threejs,
   templaris,
   zibernet,
+  baseball,
+  marvel,
 } from "../assets";
 
 export const navLinks = [
@@ -40,17 +43,18 @@ export const navLinks = [
   },
 
   {
-    id: "work",
-    title: "Work",
+    id: "works",
+    title: "Projects",
+  },
+  {
+    id: "experience",
+    title: "Experience",
   },
   {
     id: "education",
     title: "Education",
   },
-  {
-    id: "projects",
-    title: "Projects",
-  },
+
   {
     id: "feedbacks",
     title: "Feedbacks",
@@ -225,9 +229,10 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Job Prapair AI",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "PrepSmart AI is your ultimate companion to stand out in the competitive job market. Powered by cutting-edge artificial intelligence, this app helps you prepare for interviews, craft personalized resumes, and sharpen your professional skills.",
+
     tags: [
       {
         name: "react",
@@ -241,8 +246,12 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "AI",
+        color: "white-text-gradient",
+      },
     ],
-    image: carrent,
+    image: jobs,
     source_code_link: "https://github.com/",
   },
   {
@@ -285,6 +294,48 @@ const projects = [
       },
     ],
     image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Baseball Guide",
+    description:
+      "A comprehensive baseball sport loving platform that allows users to ...",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: baseball,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Marvel Comics",
+    description:
+      "A comprehensive marvel app to ...",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: marvel,
     source_code_link: "https://github.com/",
   },
 ];

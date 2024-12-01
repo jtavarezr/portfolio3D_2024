@@ -30,8 +30,13 @@ import templaris from "./company/templaris.jpeg"
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import jobs from "./company/jobs.png";
+import baseball from "./baseball.png"
+import marvel from "./marvel.png"
+
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
 
 export {
   logo,
@@ -65,4 +70,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  jobs,
+  baseball,
+  marvel,
 };
